@@ -1,0 +1,33 @@
+@import url("card.css");
+
+@import url("https://fonts.google.com/specimen/Montserrat");
+@import url("https://fonts.google.com/specimen/Fraunces");
+
+:root {
+    --dark-green: #1b4133;
+    --green:#3c8067;
+    --black: #1c232b;
+    --grey: #6c7289;
+    --cream: #f2ebe3;
+
+    --mont:"Montserrat",sans-serif;
+    --fraun:"Fraunces",sans-serif;
+
+    font-size: 14px;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cream);
+    margin:0 auto;
+    max-width:1440px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
